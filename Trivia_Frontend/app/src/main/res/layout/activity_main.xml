@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FAF1D8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:background="#FFEB3B"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@android:drawable/screen_background_light_transparent" />
+
+        <Button
+            android:id="@+id/answerOne"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:onClick="checkIfUserCorrect"
+            android:text="1"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@android:drawable/screen_background_light_transparent" />
+
+        <Button
+            android:id="@+id/answerTwo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:onClick="checkIfUserCorrect"
+            android:text="2"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@android:drawable/screen_background_light_transparent" />
+
+        <Button
+            android:id="@+id/answerThree"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:onClick="checkIfUserCorrect"
+            android:text="3"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="@android:drawable/screen_background_light_transparent" />
+
+        <Button
+            android:id="@+id/answerFour"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginLeft="155dp"
+            android:onClick="checkIfUserCorrect"
+            android:text="4"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/purple_500" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

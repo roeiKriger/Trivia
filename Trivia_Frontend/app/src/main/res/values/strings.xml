@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TriviaFlask</string>
+    <string name="correct_answer">You got it!</string>
+    <string name="play_again">Play again!</string>
+    <string name="trivia_game">TRIVIA GAME</string>
+    <string name="test_know">Test Your General Knowledge</string>
+    <string name="check_how">And Check How Far You Can Get</string>
+    <string name="play">PLAY</string>
+
+</resources>
